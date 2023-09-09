@@ -5,7 +5,7 @@ from collections import OrderedDict
 app = Flask(__name__)
 app.config['JSON_SORT_KEYS'] = False  # Disable sorting of JSON keys
 
-@app.route('/')
+@app.route('/api')
 def index():
     # Get the query parameters
     slack_name = request.args.get('slack_name')
