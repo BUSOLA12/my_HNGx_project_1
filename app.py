@@ -23,8 +23,8 @@ def index():
         ('current_day', current_day),
         ('utc_time', utc_time),
         ('track', track),
-        ('github_file_url', 'https://github.com/username/repo/blob/main/file_name.ext'),
-        ('github_repo_url', 'https://github.com/username/repo'),
+        ('github_file_url', 'https://github.com/BUSOLA12/my_HNGx_project_1/blob/main/app.py'),
+        ('github_repo_url', 'https://github.com/BUSOLA12/my_HNGx_project_1.git'),
         ('status_code', 200)
     ])
 
